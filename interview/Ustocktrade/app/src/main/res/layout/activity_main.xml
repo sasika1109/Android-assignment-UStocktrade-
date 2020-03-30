@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:background="@color/textfield"
+        android:layout_marginTop="80dp"
+        android:drawableLeft="@drawable/username"
+        android:hint="@string/username"/>
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:background="@color/textfield"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password1"
+        android:hint="@string/password"/>
+    <EditText
+        android:id="@+id/editText_Conpassword"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/textfield"
+        android:drawableLeft="@drawable/password1"
+        android:hint="@string/password1"/>
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:orientation="horizontal"
+        android:text="@string/btn_signup"/>
+
+</LinearLayout>

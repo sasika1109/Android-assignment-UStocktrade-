@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ustocktrade</string>
+    <string name="username">Enter email</string>
+    <string name="password">Enter Password</string>
+    <string name="password1">Re-enter Password</string>
+    <string name="btn_signup">Sign Up</string>
+</resources>
